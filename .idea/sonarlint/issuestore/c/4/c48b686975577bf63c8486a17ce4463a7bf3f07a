@@ -1,0 +1,43 @@
+
+_
+java:S1134~"DTake the required action to fix the issue indicated by this comment.(¥ãŒüÿÿÿÿ
+\
+java:S3457|"AFormat specifiers should be used instead of string concatenation.(Å»Üúÿÿÿÿ
+w
+java:S2629|"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Å»Üúÿÿÿÿ
+_
+java:S1134e"DTake the required action to fix the issue indicated by this comment.(¥ãŒüÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(¡ü’üúÿÿÿÿ
+P	java:S125D"<This block of commented-out lines of code should be removed.(Ú½Ğ+
+_
+java:S11343"DTake the required action to fix the issue indicated by this comment.(¥ãŒüÿÿÿÿ
+\
+java:S34571"AFormat specifiers should be used instead of string concatenation.(Å»Üúÿÿÿÿ
+P	java:S125^"<This block of commented-out lines of code should be removed.(Ú½Ğ+
+w
+java:S26291"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Å»Üúÿÿÿÿ
+\
+java:S3457H"AFormat specifiers should be used instead of string concatenation.(Å»Üúÿÿÿÿ
+_
+java:S1134J"DTake the required action to fix the issue indicated by this comment.(¥ãŒüÿÿÿÿ
+\
+java:S3457c"AFormat specifiers should be used instead of string concatenation.(Å»Üúÿÿÿÿ
+1
+java:S2275"Not enough arguments.(”ŞùŞúÿÿÿÿ
+w
+java:S2629c"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Å»Üúÿÿÿÿ
+x
+java:S1488—"\Immediately return this expression instead of assigning it to the temporary variable "user".(†ÊÒÉÿÿÿÿÿ
+
+java:S1192-"iDefine a constant instead of duplicating this literal "ä»ä»åº“ä¸­æ‹¿åˆ°çš„userä¸ºç©ºï¼Œè¿”å›" 3 times.(Ç¤Èš
+x
+java:S11921"]Define a constant instead of duplicating this literal "ä»ä»åº“ä¸­æ‹¿åˆ°äº†userï¼š" 4 times.(Å»Üúÿÿÿÿ
+‚
+java:S11922"gDefine a constant instead of duplicating this literal "å¼€å§‹åœ¨ä¸»åº“ä¸­æ’å…¥userPayè®°å½•!" 4 times.(Öä¤øÿÿÿÿ
+x
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "user".(†ÊÒÉÿÿÿÿÿ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(æÑÒ
+P	java:S125x"<This block of commented-out lines of code should be removed.(Ú½Ğ+
+w
+java:S2629H"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Å»Üúÿÿÿÿ
+P	java:S125,"<This block of commented-out lines of code should be removed.(Ú½Ğ+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gupaoedu.mapper.UserPayMapper">
+    <resultMap type="com.gupaoedu.entity.UserPay" id="userResult">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="amount" column="amount"/>
+    </resultMap>
+
+    <insert id="addUserPay" parameterType="com.gupaoedu.entity.UserPay">
+        insert into t_user_pay(
+        <if test="id != null and id != ''">id</if>
+        <if test="name != null and name != ''">,name</if>
+        <if test="amount != null and amount != ''">,amount</if>
+        )values(
+        <if test="id != null and id != ''">#{id}</if>
+        <if test="name != null and name != ''">,#{name}</if>
+        <if test="amount != null and amount != ''">,#{amount}</if>
+        )
+    </insert>
+
+    <select id="queryByName" parameterType="java.lang.String" resultType="com.gupaoedu.entity.UserPay">
+        select id,name,amount from t_user_pay where name=#{name}
+    </select>
+</mapper>
